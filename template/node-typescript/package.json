@@ -1,5 +1,5 @@
 {
-  "name": "NodejsBase",
+  "name": "TypescriptBase",
   "version": "1.0.0",
   "description": "",
   "main": "faas_index.js",
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "get-stdin": "^5.0.1"
+    "@types/node": "^14.14.37",
+    "get-stdin": "^5.0.1",
+    "typescript": "^4.2.3"
   }
 }

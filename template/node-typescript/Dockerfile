@@ -44,6 +44,8 @@ RUN chmod +rx -R ./function \
 
 USER app
 
+RUN ./node_modules/typescript/bin/tsc --project ./function
+
 ENV cgi_headers="true"
 ENV fprocess="node index.js"
 EXPOSE 8080
